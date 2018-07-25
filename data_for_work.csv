@@ -1,0 +1,8 @@
+198497,"Linux","Memory Management","Page Allocator","akpm@linux-foundation.org","NEW","2018-04-23 08:17:19","2018-01-18 01:21:56","Intel","Linux app1.com 4.14.13-rh10-20180115190010.xenU.i386 #1 SMP Mon Jan 15 19:04:55 UTC 2018 i686 GNU/Linux","No","handle_mm_fault / xen_pmd_val / radix_tree_lookup_slot Null pointer","high"
+116471,"Linux","File System","ext4","fs_ext4@kernel-bugs.osdl.org","NEW","2016-04-16 05:21:12","2016-04-15 21:00:58","x86-64","3.10.0-123.20.1.el7.x86_64","No","Core in ext4 filesystem on a Dell Server","high"
+56721,"Linux","Drivers","Parallel","drivers_parallel@kernel-bugs.osdl.org","NEW","2016-02-17 18:22:20","2013-04-17 11:09:04","All","3.8.0.18.34","No","Parport driver uses FIFO even if DMA is disabled in BIOS","high"
+199653,"Linux","Drivers","Video(DRI - non Intel)","drivers_video-dri@kernel-bugs.osdl.org","NEW","2018-06-20 19:57:28","2018-05-08 09:09:59","All","drm-next-4.18-wip (agd5f, AMDGPU)","No","[AMDGPU][DC] BUG: unable to handle kernel NULL pointer dereference (trace decoded)","high"
+187581,"Linux","Drivers","Video(DRI - non Intel)","drivers_video-dri@kernel-bugs.osdl.org","NEW","2016-11-13 23:17:27","2016-11-13 23:13:58","PPC-64","4.8.6","No","Nouveau GPU Lock Up with 2D Acceleration","high"
+67681,"Linux","Drivers","Video(DRI - non Intel)","drivers_video-dri@kernel-bugs.osdl.org","ASSIGNED","2016-04-12 01:48:32","2013-12-25 10:32:22","All","3.14.27","No","Asus G75VW F keys Not Working For WiFi & Brightness","high"
+194921,"Linux","Drivers","Flash/Memory Technology Devices","dwmw2@infradead.org","NEW","2017-04-12 04:04:49","2017-03-18 15:57:29","x86-64","4.11-rc2","Yes","Kernel oopses/panics after controller gets reset","high"
+
