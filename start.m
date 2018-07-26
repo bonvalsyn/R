@@ -23,7 +23,7 @@ c_d = 2; % the coefficient for dividing of the predict interval at passing to th
 z_t_t_o = size(tr_table_original);
 z_w_t_o = size(w_table_original_1);
 res_opt_new = -1;
-struck = {};
+struck.vr = {};
 if mode == "stable"
     struck = load(save_in_file, 'P_opt');
 elseif mode == "new"
