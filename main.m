@@ -101,7 +101,7 @@ function [ P, y, T_r , y1, timer, V,d]  = main( P, c_d, save_in_file, loop_repea
                 P_opt = P;
                 save(save_in_file, 'P_opt');
             else
-                P = P_opt;
+                P = struck.P_opt;
             end
         elseif mode == "new"
             if P{8} > res_opt_new
